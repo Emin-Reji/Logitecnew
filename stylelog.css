@@ -272,3 +272,46 @@ video{
 .copy{
     display: flex;
 }
+.footer .inp{
+    padding-left: 59%;
+   width: 100% ;
+}
+.footer .inp input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid yellow;
+    border-right: none;
+    border-radius: 3px;
+    
+    font-size: 17px;
+}
+.footer .inp button{
+    width: 40px;
+    height: 41.5px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: 'Gabarito', cursive;
+}
+.footer .inp ::placeholder{
+    font-family: 'Gabarito', cursive;
+
+}
+
+.footer .about img{
+   width: 100px;
+  display: flex;
+    padding-left: 1350px;
+    padding-top: 20px;
+    position:absolute;
+    
+}
+.footer .copyright{
+    position: absolute;
+    color: white;
+    font-family: 'Gabarito', cursive;
+    padding-left: 650px;
+    padding-top: 10px;
+}
