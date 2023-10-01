@@ -1,0 +1,274 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-betweenc;
+    margin-top: 15px;
+    padding-right: 25px;
+    background-color: white;
+
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    padding-left: 5%;
+   
+}
+.drpicon{
+    width: 10px;
+    padding-left: 5px;
+}
+nav ul{
+    list-style:none;
+    width: 100%;
+    padding-left: 200px;
+    position: absolute;
+    font-size: medium;
+}
+nav ul li a{
+    color:darkgrey;
+    text-decoration: none;
+    font-family: 'Gabarito', cursive;
+
+}
+ul.country{
+    padding-left: 80%;
+    font-size: medium;
+}
+.world{
+    width: 15px;
+}
+.main{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 80px;
+    
+    
+}
+.main img{
+    width: 100%;
+    height:750px;
+    padding-top: 20px;
+    position: absolute;
+   
+}
+.shopbar{
+    width: 99%;
+   height: 100px;
+   margin-top: 20px;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+    
+}
+
+.shopbar img{
+    width:10%;
+   padding-left: 60px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.shopbar ul{
+    display: flex;
+    list-style:none ;
+    padding-right: 60px;
+   
+    
+}
+.shopbar ul li a{
+    width: 100px;
+    color: white;
+    list-style: none;
+    margin-left: 100px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Gabarito', cursive;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+.shopbar ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+.shopbar ul li i{
+    color: white;
+    cursor: pointer;
+     padding:15px
+}
+.mv{
+    width: 70%;
+    color: white;
+    position: relative;
+    margin-top: 2px;
+    
+}
+.mv h1{
+   font-size: 3em;
+   font-family: 'Gabarito', cursive;
+   padding: 55px;
+   padding-top: 1%;
+
+}
+.mv p{
+    font-family: 'Gabarito', cursive;
+    padding: 50px;
+    font-size:2.0em;
+    padding-top: 1%;
+}
+.mv  .button{
+    width: 200px;
+    height: 100px;
+   
+   
+    margin-left: 50px;
+   
+    color: black;
+    border-radius: 3px;
+    text-decoration: none;
+    border: none;
+    font-family: 'Gabarito', cursive;
+    
+
+}
+.mv .btn1{
+    
+   width: 100%;
+   height: 50%;
+   margin: 5px;
+    background-color: white;
+    color: black;
+    font-family: 'Gabarito', cursive;
+    font-weight: bolder;
+    border-radius: 3px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.mv .btn2{
+    
+    width: 100%;
+    height: 50%;
+    margin: 5px;
+     background-color:transparent;
+     color: white;
+     font-family: 'Gabarito', cursive;
+     font-weight: bolder;
+     border-radius: 3px;
+     text-decoration: none;
+     border-color: white;
+     border-style:solid;
+     cursor: pointer;
+
+}
+.video{
+    width: 100%;
+    
+    
+    
+}
+.video .videos{
+    width: 100%;
+    object-fit:cover;
+
+    
+   
+}
+video{
+    width: 100%;
+    
+    
+}
+.video .light{
+    padding-top: 70px;
+    position: absolute;
+    padding-left: 500px;
+    color: white;
+    font: bolder;
+    font-size: 2em;
+    font-family: 'Gabarito', cursive;
+}
+.cards{
+    width: 100%;
+    height: 500px;
+  
+}
+.card{
+    width: 100%;
+    margin: 10px;
+    height: 100%;
+}
+.cards img{
+    width: 100%;
+}
+
+.cards .card  .card1{
+    width: 40%;
+    margin-left: 300px;
+    float: left;
+}
+.cards .card  .card1 h3{
+    padding-top:19%;
+    position: absolute;  
+    padding-left: 190px;
+    font-family: 'Gabarito', cursive;  
+  
+}
+.cards .card  .card2{
+    width: 20%;
+    margin-left: 990px;
+  
+}
+
+.cards .card  .card2 h3{
+    padding-top: 30%;
+    position: absolute;
+    padding-left: 80px;
+    font-family: 'Gabarito', cursive;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    
+}
+.footer li{
+    color: white;
+    font-family: 'Gabarito', cursive;
+    font-size: larger;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 100px;
+}
+.footer h3{
+    color: yellow;
+    font-family: 'Gabarito', cursive;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 100px;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.about{
+    display: flex;
+}
+.copy{
+    display: flex;
+}
